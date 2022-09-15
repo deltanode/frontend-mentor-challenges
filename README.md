@@ -2,6 +2,6 @@
 
 My submissions for some of the [frontend mentor challenges](https://www.frontendmentor.io/challenges)
 
-| S.No | Challenge | Source Code | Action |
+| S.No | Challenges | Action | Link |
 | --- | --- | --- | --- |
-| 1 | Qr Code Component | [Code](#) | [Live Preview](#) |
+| 1 | Qr Code Component | [Code](qr-code-component) | [Live Preview](#) |
