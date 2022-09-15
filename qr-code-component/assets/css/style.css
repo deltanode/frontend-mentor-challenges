@@ -1,0 +1,60 @@
+/*============ CSS VARIABLES ============*/
+:root{
+    /* colors */
+    --first-color: hsl(218, 44%, 22%);
+    --first-color-alt: hsl(212, 45%, 89%) ;
+    --white-color: hsl(0, 0%, 100%);
+    --grey-color-light: hsl(220, 15%, 55%);
+    --attribute-color: hsl(228, 45%, 44%) ;
+
+    /* font */
+    --font-body: 'Poppins', sans-serif;
+    --font-regular: 15px;
+    --font-small: 11px;
+    --font-bold: 700;
+}
+
+/*============ BASE ============*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-body);
+    background-color: var(--first-color-alt);
+    min-height: 100vh;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*============ QR ============*/
+
+qr{
+    
+}
+
+/*============ Footer ============*/
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.attribute{
+    color: var(--attribute-color);
+    font-size: var(--font-small);
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/*============  ============*/
