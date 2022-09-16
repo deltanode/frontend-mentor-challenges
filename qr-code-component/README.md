@@ -24,7 +24,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component-ZgBqdkEjqw)
 - Live Site URL: [Live Preview](https://deltanode.github.io/frontend-mentor-challenges/qr-code-component/)
 
 ## My process
