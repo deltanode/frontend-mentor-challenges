@@ -1,0 +1,38 @@
+/*======== CSS VARIABLES ========*/
+:root{
+    /* colors */
+    --blue-color: hsl(233, 47%, 7%);
+    --blue-color-light: hsl(244, 38%, 16%);
+    --voilet-color: hsl(277, 64%, 61%);
+    --white-color: hsl(0, 0%, 100%);
+    --white-color-para: hsla(0, 0%, 100%, 0.75);
+    --white-color-stat: hsla(0, 0%, 100%, 0.6);
+    
+    /* font */
+    --large-font: 2rem;
+    --normal-font: 1rem;
+
+    --font-regular: 400;
+    --font-bold: 700;
+
+}
+
+
+/*======== BASE ========*/
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+
+/*========  ========*/
+/*========  ========*/
+/*========  ========*/
