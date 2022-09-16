@@ -8,7 +8,8 @@
 
 # Frontend Mentor Challenges
 
-My submissions for some of the [frontend mentor challenges](https://www.frontendmentor.io/challenges)
+My submissions for some of the [frontend mentor challenges](https://www.frontendmentor.io/profile/yogesh7132)
+
 
 | S.No | Challenges | Action | Link |
 | --- | --- | --- | --- |
