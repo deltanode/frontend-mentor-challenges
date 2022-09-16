@@ -6,23 +6,30 @@
     --white-color: hsl(0, 0%, 100%);
     --grey-color-light: hsl(220, 15%, 55%);
     --attribute-color: hsl(228, 45%, 44%) ;
+    --dark-color: hsl(0, 2%, 22%) ;
 
     /* font */
     --font-body: 'Poppins', sans-serif;
-    --font-regular: 15px;
-    --font-small: 11px;
+    --font-regular: 1.25rem;
+    --font-small: 0.916rem;
     --font-bold: 700;
 }
 
 /*============ BASE ============*/
 *,*::before,*::after{
     box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
 
 body{
     font-family: var(--font-body);
     background-color: var(--first-color-alt);
+    color: var(--dark-color);
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -32,12 +39,41 @@ img{
 
 a{
     text-decoration: none;
+    color: var(--first-color)
 }
 
 /*============ QR ============*/
 
-qr{
-    
+.qr{
+    background-color: var(--white-color);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.qr__img{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.qr_data{
+    justify-content: center;
+}
+
+.qr__title{
+    font-size: var(--font-regular);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.qr__description{
+    font-size: var(--font-small);
+    color: var(--grey-color-light);
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 /*============ Footer ============*/
@@ -47,14 +83,30 @@ qr{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: antiquewhite;
+    background-color:var(--white-color);
 }
 
-.attribute{
-    color: var(--attribute-color);
+.attribution{
+    color: var(--first-color);
     font-size: var(--font-small);
     text-align: center;
-    background-color: aquamarine;
+    padding: 0.5rem 0;
 }
 
-/*============  ============*/
+/*============ MEDIA QURIES ============*/
+
+@media screen and (min-width: 450px){
+    :root{
+        --font-regular: 1.15rem;
+        --font-small: 0.816rem;
+    }
+
+    .qr{
+        max-width: 300px;
+        row-gap: 0.5rem;
+    }
+
+    .qr__description{
+        margin-bottom: 0.75rem;
+    }
+}
