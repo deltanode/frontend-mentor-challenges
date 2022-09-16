@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -53,3 +54,4 @@ Use this section to recap over some of your major learnings while working throug
 
 - Github - [Yogesh Yadav](https://github.com/deltanode)
 - Frontend Mentor - [@yogesh7132](https://www.frontendmentor.io/profile/yogesh7132)
+- Twitter - [@yogesh_yadv](https://twitter.com/yogesh_yadv)
