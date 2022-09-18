@@ -13,5 +13,5 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
 
 | S.No | Challenges | Action | Link |
 | --- | --- | --- | --- |
-| 1 | Qr Code Component | [Code](qr-code-component) | [Live Preview](https://deltanode.github.io/frontend-mentor-challenges/qr-code-component) |
-| 2 | Stats Preview Card Component | [Code](stats-preview-card-component) | [Live Preview](https://deltanode.github.io/frontend-mentor-challenges/stats-preview-card-component) |
+| 1 | Qr Code Component | [Code](qr-code-component) | [🔴 Live Preview](https://deltanode.github.io/frontend-mentor-challenges/qr-code-component) |
+| 2 | Stats Preview Card Component | [Code](stats-preview-card-component) | [🔴 Live Preview](https://deltanode.github.io/frontend-mentor-challenges/stats-preview-card-component) |
